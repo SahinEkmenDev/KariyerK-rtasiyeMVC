@@ -16,7 +16,7 @@ Bu e-ticaret projesinin amacı, kullanıcıların ürünleri kolayca keşfetmele
 - **Entegrasyon ve Ölçeklenebilirlik:** Projenin gelecekte üçüncü taraf servislerle entegrasyonunu ve ölçeklenebilirliğini destekleyecek bir yapı oluşturmak. Bu, platformun farklı ödeme ağ geçitleri, kargo hizmetleri ve diğer dış sistemlerle uyumlu olmasını sağlar.
 
 
-
+## Anasayfa
 ![1](https://github.com/user-attachments/assets/e53f7625-103f-4c30-9d18-5e3df129e01e)
 
 ![2](https://github.com/user-attachments/assets/dc7c1f26-3c89-41f8-b6b5-132708ce8e76)
