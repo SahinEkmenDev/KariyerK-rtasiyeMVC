@@ -1,0 +1,66 @@
+﻿<ul class="navbar-nav my-0 my-lg-0">
+    <div class="btn-group" role="group" aria-label="User Actions">
+        @if (Request.IsAuthenticated)
+        {
+            <div class="order-lg-last style="text-align: right;">
+                <div class="text-end">
+                    <a href="/" class="btn btn-light">
+                        @User.Identity.Name
+                        <i class="fa fa-user"></i> <span>Giriş</span>
+                    </a>
+                </div>
+            </div>
+            <div class="order-lg-last style="text-align: right;">
+                <div class="text-end">
+                    <a href="/Account/Logout" class="btn btn-light">
+
+                        <i class="fa fa-user"></i> <span></span>
+                    </a>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="order-lg-last justify-content-end ">
+                <div class="text-end">
+                    <a href="/Account/Login" class="btn btn-light">
+
+                        <i class="fa fa-user"></i> <span>Giriş</span>
+                    </a>
+                </div>
+            </div>
+            <div class="order-lg-last justify-content-end">
+                <div class="text-end">
+                    <a href="/Account/Register" class="btn btn-light">
+
+                        <i class="fa fa-user"></i> <span>Kayıt Ol</span>
+                    </a>
+                </div>
+            </div>
+        }
+
+
+        <div class="order-lg-last style="text-align: right; margin-bottom: 10px">
+            <div class="text-end">
+                <a href="/Cart" class="btn btn-light">
+
+                    <i class="fa fa-shopping-cart"></i> <span>Sepetim</span>
+                </a>
+            </div>
+        </div>
+      
+        <div class="order-lg-last style="text-align: right; margin-bottom: 10px ">
+            <div class="text-end">
+                <a href="/Category" class="btn btn-light">
+
+                    <i class="fa fa-tachometer"></i> <span>Yönetim Paneli</span>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+</ul>
